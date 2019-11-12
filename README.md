@@ -3,7 +3,7 @@
 ![My Startup](http://filemanager.bappeda.jayapurakab.go.id/repository/images/MyStartup.png)
 
 ## System Requirements :
-* Bahasa Utama :
+* Language :
   - Python
 
 * Framework :
@@ -11,6 +11,9 @@
 
 * Database :
   - PostgreSQL 9.6
+
+* Interface :
+  - [Front](https://github.com/Ekhel/Startup-Frontend)
 
 * Services :
   - virtual env on Depending OS and docker container
