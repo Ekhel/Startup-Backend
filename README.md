@@ -9,14 +9,12 @@
 * Framework :
   - Django 2.2.6
 
-* Database :
-  - PostgreSQL 9.6
+* DBMS :
+  - Postgre 9.6
 
 * Interface :
   - [Front](https://github.com/Ekhel/Startup-Frontend)
 
-* Services :
-  - virtual env on Depending OS and docker container
 
 ---------------------------------------------------------------------------------------------
 
@@ -26,3 +24,4 @@
  - Create API GET, Retrive, POST, Update, Delete [Solved]
  - Add CORS (Cross-Origin Resource Sharing) [Solved]
  - Add Handling The API, POST, Update, Delete, Retrive [Solved]
+ - Add Handling API, 
