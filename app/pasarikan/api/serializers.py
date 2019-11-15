@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..models import Nelayan, Produk, Distrik, Kampung
+from ..models import Nelayan, Produk, Distrik, Kampung, OrderItem, Order
 
 class NelayanSerializer(serializers.ModelSerializer):
     class Meta:
@@ -42,4 +42,15 @@ class KampungSerializer(serializers.ModelSerializer):
             'id_kampung',
             'distrik',
             'nama_kampung'
+        )
+
+class OrderItemSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Order
+        fields = (
+            'id',
+            'user',
+            'ordered',
+            'item',
+            'quantity'
         )

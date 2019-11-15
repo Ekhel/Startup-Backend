@@ -11,7 +11,8 @@ from .views import (
     DistrikListView, 
     DistrikDetailView, 
     KampungListView, 
-    KampungDetailView
+    KampungDetailView,
+    OrderListView,
 )
 
 urlpatterns = [
@@ -26,5 +27,5 @@ urlpatterns = [
     path('distrik/<pk>', DistrikDetailView.as_view()),
     path('kampung/', KampungListView.as_view()),
     path('kampung/<pk>', KampungDetailView.as_view()),
-    
+    path('orderitem/', OrderListView.as_view()),
 ]

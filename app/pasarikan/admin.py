@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Distrik, Kampung, Nelayan, Produk
+from .models import Distrik, Kampung, Nelayan, Produk, Order, OrderItem
 
 class PageDistrik(admin.ModelAdmin):
     list_display = ('id_distrik','nama_distrik')
@@ -25,10 +25,18 @@ class PageProduk(admin.ModelAdmin):
     search_fields = ('id_produk','nama_produk','deskripsi','stock','ukuran','kondisi','min_order','harga')
     list_per_page = 10
 
+class PageOrderItem(admin.ModelAdmin):
+    list_display = ('id','user','quantity','item')
+    list_display_links = ('id','user','quantity','item')
+    search_fields = ('id','user','quantity','item')
+    list_per_page = 10
+
 
 admin.site.register(Distrik, PageDistrik)
 admin.site.register(Kampung, PageKampung)
 admin.site.register(Nelayan, PageNelayan)
 admin.site.register(Produk, PageProduk)
+admin.site.register(Order)
+admin.site.register(OrderItem, PageOrderItem)
 
 

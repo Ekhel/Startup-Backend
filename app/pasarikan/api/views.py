@@ -1,10 +1,11 @@
 from rest_framework.generics import ListAPIView, RetrieveAPIView, CreateAPIView, UpdateAPIView, DestroyAPIView
-from ..models import Nelayan, Produk, Distrik, Kampung
+from ..models import Nelayan, Produk, Distrik, Kampung, OrderItem, Order
 from .serializers import (
     NelayanSerializer, 
     ProdukSerializer, 
     DistrikSerializer, 
-    KampungSerializer
+    KampungSerializer,
+    OrderItemSerializer,
 )
 
 # Start API Nelayan GET, POST, UPDATE, DELETE, RETRIVE
@@ -69,3 +70,9 @@ class KampungDetailView(RetrieveAPIView):
     serializer_class = KampungSerializer
 
 # END API Kampung
+
+# Start API Order
+
+class OrderListView(ListAPIView):
+    queryset = Order
+    serializer_class = OrderItemSerializer
