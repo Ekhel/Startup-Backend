@@ -25,3 +25,11 @@
   - Add CORS (Cross-Origin Resource Sharing) [Solved]
   - Add Handling The API, POST, Update, Delete, Retrive [Solved]
   - Add Handling API POST Method OrderItem, Order [Not Solved]
+  - Change API method With Default Router DRF [Solved]
+  - Fix This handle Post, and Retrive Data [Solved]
+
+* Admin Backend
+  - Fix The Admin Site Backend [Solved]
+  - Change Layout View Data [Solved]
+  - Add Fungtion Search, Table Heading to Layout View Admin Site [Solved]
+  - Add Function Create ManyToMany OrderItem to Order [Not Solved]
