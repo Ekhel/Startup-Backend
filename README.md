@@ -19,9 +19,9 @@
 ---------------------------------------------------------------------------------------------
 
 ## Development :
-* API 
- - Add DRF (Django Rest Framewoek) [Solved] 
- - Create API GET, Retrive, POST, Update, Delete [Solved]
- - Add CORS (Cross-Origin Resource Sharing) [Solved]
- - Add Handling The API, POST, Update, Delete, Retrive [Solved]
- - Add Handling API POST Method OrderItem, Order [Not Solved]
+* API Backend
+  - Add DRF (Django Rest Framewoek) [Solved] 
+  - Create API GET, Retrive, POST, Update, Delete [Solved]
+  - Add CORS (Cross-Origin Resource Sharing) [Solved]
+  - Add Handling The API, POST, Update, Delete, Retrive [Solved]
+  - Add Handling API POST Method OrderItem, Order [Not Solved]
