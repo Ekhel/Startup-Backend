@@ -27,9 +27,16 @@
   - Add Handling API POST Method OrderItem, Order [Not Solved]
   - Change API method With Default Router DRF [Solved]
   - Fix This handle Post, and Retrive Data [Solved]
+  - Add Django Auth Rest [Solved]
+  - Add Django Sosial Account Auth[Solved]
+  - Add Token Create From user Account [Solved]
+  - Add Token Create From New User Registrations (Sigup) [Solved]
 
 * Admin Backend
   - Fix The Admin Site Backend [Solved]
   - Change Layout View Data [Solved]
   - Add Fungtion Search, Table Heading to Layout View Admin Site [Solved]
   - Add Function Create ManyToMany OrderItem to Order [Not Solved]
+  - Setup file settings.py for rest_auth Login, Logout, Create Token Serializer [Solved]
+  - Setup file settings.py Username, Password to Passing in to rest_auth [Solved]
+  - Migrate The DBMS to 
