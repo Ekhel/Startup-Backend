@@ -25,7 +25,7 @@ SECRET_KEY = 'dnw8p9ye%j5m9_-r25j5i39!%*oc4$7dni8&u*0^k%fh&$1-l0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['backend-startup.herokuapp.com']
 
 
 # Application definition
@@ -136,11 +136,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 ADMIN_SITE_HEADER = "PASAR LAUT"
 ADMIN_SITE_INDEX = "Pasar Laut Backend Administrator"
 
-STATIC_URL = '/static/'
+SITE_ID = 1
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
