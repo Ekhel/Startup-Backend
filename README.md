@@ -1,6 +1,6 @@
 # Startup-Backend
 
-[Imgur](https://i.imgur.com/AFeCcGt.png)
+![Imgur](https://i.imgur.com/AFeCcGt.png)
 
 ## System Requirements :
 * Language :
