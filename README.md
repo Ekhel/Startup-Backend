@@ -1,6 +1,6 @@
 # Startup-Backend
 
-![My Startup](http://filemanager.bappeda.jayapurakab.go.id/repository/images/MyStartup.png)
+[Imgur](https://i.imgur.com/AFeCcGt.png)
 
 ## System Requirements :
 * Language :
